@@ -246,6 +246,11 @@ footer nav a {
     margin-top: 20px;
 }
 
+.learn-more:hover {
+	box-shadow: 0 0 5px gray;
+	cursor: pointer;
+}
+	
 .about-bottom-content {
 	padding: 20px;
 }
