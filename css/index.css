@@ -94,7 +94,7 @@ nav {
     margin: 0 auto;
 }
 
-#index-header-image {
+.header-image {
 	margin: 20px 0 20px;
 }
 
@@ -203,3 +203,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
