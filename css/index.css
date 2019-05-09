@@ -66,9 +66,41 @@ p {
     line-height: 1.4;
 }
 
+h2, a, p {
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	width: 800px;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 20px 0 20px;
+}
+
+.links a {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+.links a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	width: 643px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header-image {
+	margin: 20px 0 20px;
 }
 
 .top-content {
@@ -104,12 +136,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+/*    background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+	background: teal;
+}
+.box:nth-child(2) {
+	background: gold;
+}
+.box:nth-child(3) {
+	background: cadetblue;
+}
+.box:nth-child(4) {
+	background: coral;
+}
+.box:nth-child(5) {
+	background: crimson;
+}
+.box:nth-child(6) {
+	background: forestgreen;
+}
+.box:nth-child(7) {
+	background: darkorchid;
+}
+.box:nth-child(8) {
+	background: hotpink;
+}
+.box:nth-child(9) {
+	background: indigo;
+}
+.box:nth-child(10) {
+	background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +206,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-top-content {
+	padding: 0 20px 20px;
+	border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	padding: 20px;
+}
+
+.about-middle-content h2 {
+	margin-top: 10px;
+}
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	width: 48%;
+	border-bottom: 1px dashed black;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.learn-more {
+	background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+    height: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.learn-more:hover {
+	box-shadow: 0 0 5px gray;
+	cursor: pointer;
+}
+	
+.about-bottom-content {
+	padding: 20px;
 }
